@@ -1,10 +1,15 @@
 package ru.Konyukhov.Git;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	    int count = 2;
-        int price = 29;
+
+        Scanner in = new Scanner(System.in);
+
+	    int count = in.nextInt();
+        int price = in.nextInt();
 
         int total = count*price;
         System.out.println(total);
