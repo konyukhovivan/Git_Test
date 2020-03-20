@@ -2,8 +2,16 @@ package ru.Konyukhov.Git;
 
 import java.util.Scanner;
 
+/**
+ * Class Main
+ * @author = Ivan
+ */
 public class Main {
 
+    /**
+     * Entry point
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
